@@ -1,0 +1,343 @@
+/*main.css */
+
+html, body,header,footer, h1, h2, h3, h4, p, div {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+	font-family: "helvetica Neue", helvetica, sans-serif;
+	background-color: #FEFEFE;
+}
+body {
+	height: 1800px;
+	width: 62.5em;
+	margin: auto;
+}
+/*Header*/
+header {
+	margin: auto;
+	margin-top: 90px;
+	margin-bottom: 15px;
+    width: 62.5em;
+    height: 90px;
+    background-color: #007196;
+    padding: 10px;
+    box-shadow: -4px 4px 5px #888888;
+    border-radius: 1em 1em 1em 1em;
+    border: .1em solid #454545;
+}
+h1 {
+	position: relative;
+	top:45px;
+	left: 270px;
+	width: 10em;
+	font-size: 2.5em;
+	color: #12181A;
+	font-weight: bold;
+	background-color: #007196;
+	text-shadow: -1px 1px #00516B;
+	
+}
+h3 {
+	font-size: .8em;
+	font-weight: bold;
+}
+#contact {
+	position: relative;
+	top: 5px;
+	font-size: 1.1em;
+	right: 10px;
+	float: right;
+	background-color: #007196;
+	color: #FEFEFE;
+}
+#images {
+	margin: auto;
+    width: 62.5em;
+    height: 1px;
+    padding: 10px;
+}
+.meimg {
+	height: 14em;
+	width: 14em;
+	border: 1px solid #798082;
+	box-shadow: -3px 2px 5px #1E2021, 3px 4px 5px 0px #353738;
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 40px;
+	position: relative;
+	top: -200px;
+	border-radius: 7em 3em 7em 3em;
+	z-index: 1;
+}
+.statement {
+	margin: auto;
+    width: 62.5em;
+    height: 75px;
+    padding: 10px;
+    z-index: -1;
+}
+#statement {
+	font-size: 1.4em;
+	position: relative;
+	left: -20px;
+}
+#experience {
+	margin: auto;
+	width: 62.5em;
+    height: 80px;
+    padding: 10px;
+}
+#experience h2 {
+	font-size: 2em;
+	position: relative;
+	left:-285px;
+	bottom: -65px;
+	color: #12181A;
+}
+/*Cemstone*/
+#cemstonediv {
+	margin: auto;
+	margin-top: 20px;
+    width: 62.5em;
+    height: 550px;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-top: 2px solid #007196;
+}
+#cemstonelogo {
+	position: relative;
+	top: -55px;
+	float: left;
+	height: 40px;
+	padding-top: 30px;
+}
+.cemstonename {
+	position: relative;
+	top: -35px;
+	float: left;
+	padding: 20px 0 0 10px;
+	font-size: 1em;
+}
+#title {
+	font-size: 1.2em;
+	font-weight: bold;
+	position: relative;
+	top: -60px;
+}
+.time {
+	float: right;
+	position: relative;
+	font-size: 1.2em;
+	top: -100px;
+}
+#dutiesdiv {
+	width: 60em;
+	margin: auto;
+	position: relative;
+}
+#dutiesdiv ul {
+	position: relative;
+	top: -65px;
+}
+#dutiesdiv p {
+	position: relative;
+	top: -60px;
+	font-weight: bold;
+}
+#projects {
+	width: 62.5em;
+	margin: auto;
+	position: relative;
+	top: -45px;
+	right: -15px;
+}
+#stadiumpic {
+	height: 10.5em;
+	width: auto;
+	float: left;
+}
+#marqpic {
+	height: 10.5em;
+	width: auto;
+	float: left;
+}
+#latpic {
+	height: 10.5em;
+	width: auto;
+	float: left;
+}
+/*AVR*/
+#avrdiv  {
+	margin: auto;
+    width: 62.5em;
+    height: 350px;
+    border-top: 2px solid #007196;
+    padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 10px; 
+	padding-top: 5px;
+}
+#avrlogo {
+	position: relative;
+	float: left;
+	height: 50px;
+	width: auto;
+	
+}
+.avrname {
+	position: relative;
+	font-size: 1em;
+	float: left;
+	padding: 10px 0 0 10px;
+	
+}
+#title2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	position: relative;
+	top: -10px;
+}
+.time2 {
+	float: right;
+	font-size: 1.2em;
+	position: relative;
+	top: -45px;
+}
+#duties2div {
+	width: 60em;
+	margin: auto;
+}
+ul {
+	font-size: 1.1em;
+}
+li {
+	margin-top: 4px;
+}
+#duties2div ul {
+	position: relative;
+	top: -15px;
+}
+/*Education*/ 
+#educationdiv {
+	margin: auto;
+	margin-right: 0px;
+	float:left;
+    width: 30em;
+    height: 280px;
+    border-right: 2px solid #007196;
+    padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.ed {
+	margin: auto;
+	margin-top: 40px;
+    width: 62.5em;
+    border-bottom: 2px solid #007196;
+    height: 40px;
+    padding: 10px;
+}
+.ed h2 {
+	font-size: 2em;
+	position: relative;
+	color: #12181A;
+	padding:5px 0px 5px 0;
+	margin-bottom: 5px;
+	left:-10px;
+
+}
+#educationdiv h3 {
+	font-size: 1.2em;
+	position: relative;
+	left: 5px;
+}
+#educationdiv p {
+	font-size: 1.1em;
+	position: relative;
+	left: 5px;
+}
+.ed span {
+	position: relative;
+	right: -360px;
+}
+/*Technical Skills*/
+.techdiv {
+	margin: auto;
+	float: right;
+    width: 30em;
+    height: 300px;
+    border-right: 2px solid #007196;
+    padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#techdiv ul {
+	font-size: 1.2em;
+	position: relative;
+	right: -40px;
+	top: 20px;
+}
+/*Footer*/
+footer {
+	position: relative;
+	margin: auto;
+    width: 62.5em;
+    height: 60px;
+    padding: 10px;
+    background-color: #007196;
+     box-shadow: -4px 4px 5px #888888;
+    border-radius: 1em 1em 1em 1em;
+    border: .1em solid #454545;
+    margin-bottom: 30px;
+}
+footer p {
+	position: relative;
+	font-size: 1.1em;
+	background-color: #007196;
+	color: #FEFEFE;
+}
+
+/*Clear*/
+.clear {
+	clear:both;
+	margin: 1px;
+    width: 62.5em;
+    height: 1px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
