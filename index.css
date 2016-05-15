@@ -1,6 +1,6 @@
 /*main.css */
 
-html, body,header,footer, h1, h2, h3, h4, p, div {
+html, body,header,footer, h1, h2, h3, h4, p, div, figure{
 	padding: 0;
 	border: 0;
 	margin: 0;
@@ -10,9 +10,22 @@ html, body,header,footer, h1, h2, h3, h4, p, div {
 	background-color: #FEFEFE;
 }
 body {
-	height: 1800px;
+	height: auto;
 	width: 62.5em;
 	margin: auto;
+}
+h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+section {
+	border-bottom: 2px #007196 solid;
+}
+ul {
+	font-size: 1.1em;
+}
+li {
+	margin-top: 4px;
 }
 /*Header*/
 header {
@@ -21,293 +34,175 @@ header {
 	margin-bottom: 15px;
     width: 62.5em;
     height: 90px;
+   	background: linear-gradient(0deg, #817E85, #007196);
     background-color: #007196;
     padding: 10px;
     box-shadow: -4px 4px 5px #888888;
     border-radius: 1em 1em 1em 1em;
     border: .1em solid #454545;
 }
-h1 {
-	position: relative;
-	top:45px;
-	left: 270px;
-	width: 10em;
-	font-size: 2.5em;
-	color: #12181A;
-	font-weight: bold;
-	background-color: #007196;
-	text-shadow: -1px 1px #00516B;
-	
-}
-h3 {
-	font-size: .8em;
-	font-weight: bold;
-}
-#contact {
-	position: relative;
-	top: 5px;
-	font-size: 1.1em;
-	right: 10px;
-	float: right;
-	background-color: #007196;
-	color: #FEFEFE;
-}
-#images {
-	margin: auto;
-    width: 62.5em;
-    height: 1px;
-    padding: 10px;
-}
 .meimg {
-	height: 14em;
-	width: 14em;
+	height: 15em;
+	width: 15em;
 	border: 1px solid #798082;
 	box-shadow: -3px 2px 5px #1E2021, 3px 4px 5px 0px #353738;
 	float: left;
-	margin-top: 40px;
-	margin-left: 20px;
-	margin-right: 40px;
 	position: relative;
-	top: -200px;
 	border-radius: 7em 3em 7em 3em;
 	z-index: 1;
+	margin: 0 10px 0 10px; 
+	top: -20px;
 }
-.statement {
-	margin: auto;
-    width: 62.5em;
-    height: 75px;
-    padding: 10px;
-    z-index: -1;
+.name {
+	padding-top: 20px;
+	height: 80px;
+	margin: 0px 0 0 180px;
+	float: left;
+	font-size: 3.5em;
+	color: #12181A;
+	font-weight: bold;
+	background: linear-gradient(0deg, #817E85, #007196);
+	background-color: #007196;
+	text-shadow: -1px 1px #00516B;
 }
-#statement {
-	font-size: 1.4em;
-	position: relative;
-	left: -20px;
-}
-#experience {
-	margin: auto;
-	width: 62.5em;
-    height: 80px;
-    padding: 10px;
-}
-#experience h2 {
+.experiance-heading {
+	margin: 35px 0 5px 0;
 	font-size: 2em;
-	position: relative;
-	left:-285px;
-	bottom: -65px;
 	color: #12181A;
 }
-/*Cemstone*/
-#cemstonediv {
-	margin: auto;
-	margin-top: 20px;
-    width: 62.5em;
-    height: 550px;
-    padding: 10px;
-    padding-bottom: 15px;
-    border-top: 2px solid #007196;
+.statement {
+	float: right;
+    width: 600px;
+    height: 80px;
+    padding: 5px;
+    font-size: 1.4em;
 }
-#cemstonelogo {
-	position: relative;
-	top: -55px;
+/*Cemstone*/
+.cemstonelogo {
 	float: left;
+	margin: 10px 0 0 0;
 	height: 40px;
-	padding-top: 30px;
+	box-shadow: -1px 1px 1px #888888;
+    border-radius: .5em .5em .5em .5em;
+    border: 1px solid #454545;
 }
 .cemstonename {
+	margin: 10px 0 5px 0;
 	position: relative;
-	top: -35px;
-	float: left;
-	padding: 20px 0 0 10px;
 	font-size: 1em;
 }
-#title {
+.cemstonetitle {
 	font-size: 1.2em;
 	font-weight: bold;
 	position: relative;
-	top: -60px;
-}
-.time {
+	}
+.cemstonedates {
 	float: right;
 	position: relative;
 	font-size: 1.2em;
-	top: -100px;
+	margin-top: 10px;
 }
-#dutiesdiv {
-	width: 60em;
-	margin: auto;
-	position: relative;
+.noteworthy-projects {
+	margin: 5px 0px 12px 10px;
 }
-#dutiesdiv ul {
-	position: relative;
-	top: -65px;
-}
-#dutiesdiv p {
-	position: relative;
-	top: -60px;
-	font-weight: bold;
-}
-#projects {
-	width: 62.5em;
-	margin: auto;
-	position: relative;
-	top: -45px;
-	right: -15px;
-}
-#stadiumpic {
+.projects {
+	margin-right: 4px;
 	height: 10.5em;
-	width: auto;
+	width: 15em;
 	float: left;
-}
-#marqpic {
-	height: 10.5em;
-	width: auto;
-	float: left;
-}
-#latpic {
-	height: 10.5em;
-	width: auto;
-	float: left;
+	box-shadow: -2px 2px 3px #888888;
+    border-radius: .7em .7em .7em .7em;
+    border: .1em solid #454545;
 }
 /*AVR*/
-#avrdiv  {
-	margin: auto;
-    width: 62.5em;
-    height: 350px;
-    border-top: 2px solid #007196;
-    padding: 15px;
-	margin-top: 30px;
-	margin-bottom: 10px; 
-	padding-top: 5px;
-}
-#avrlogo {
+.avrlogo {
+	margin-top: 10px;
 	position: relative;
 	float: left;
-	height: 50px;
+	height: 70px;
 	width: auto;
-	
 }
 .avrname {
 	position: relative;
 	font-size: 1em;
-	float: left;
-	padding: 10px 0 0 10px;
-	
+	padding: 10px 0 5px 0;
 }
-#title2 {
+.avrtitle {
 	font-size: 1.2em;
 	font-weight: bold;
 	position: relative;
-	top: -10px;
 }
-.time2 {
+.avrdates {
 	float: right;
 	font-size: 1.2em;
+	margin-top: 10px;
 	position: relative;
-	top: -45px;
-}
-#duties2div {
-	width: 60em;
-	margin: auto;
-}
-ul {
-	font-size: 1.1em;
-}
-li {
-	margin-top: 4px;
-}
-#duties2div ul {
-	position: relative;
-	top: -15px;
 }
 /*Education*/ 
-#educationdiv {
-	margin: auto;
-	margin-right: 0px;
-	float:left;
-    width: 30em;
-    height: 280px;
-    border-right: 2px solid #007196;
-    padding: 10px;
-	margin-top: 10px;
+.education-section {
+	float: left;
+	width: 500px;
+	height: 270px;
+	border-bottom: none;
 	margin-bottom: 30px;
 }
-.ed {
-	margin: auto;
-	margin-top: 40px;
-    width: 62.5em;
-    border-bottom: 2px solid #007196;
-    height: 40px;
-    padding: 10px;
-}
-.ed h2 {
+.education {
+	margin: 20px 0 5px 0;
 	font-size: 2em;
-	position: relative;
-	color: #12181A;
-	padding:5px 0px 5px 0;
-	margin-bottom: 5px;
-	left:-10px;
-
+	float: left;
 }
-#educationdiv h3 {
-	font-size: 1.2em;
-	position: relative;
-	left: 5px;
-}
-#educationdiv p {
-	font-size: 1.1em;
-	position: relative;
-	left: 5px;
-}
-.ed span {
-	position: relative;
-	right: -360px;
+.education-section h3 {
+	margin: 10px 0 5px 0;
 }
 /*Technical Skills*/
-.techdiv {
-	margin: auto;
-	float: right;
-    width: 30em;
-    height: 300px;
-    border-right: 2px solid #007196;
-    padding: 10px;
-	margin-top: 10px;
+.tech-section {
 	margin-bottom: 30px;
+	float: left;
+	border-left:2px #007196 solid;
+	width: 480px;
+	height: 270px;
+	border-bottom: none;
 }
-#techdiv ul {
-	font-size: 1.2em;
-	position: relative;
-	right: -40px;
-	top: 20px;
+.technical-skills {
+	margin: 20px 0 5px 370px;
+	font-size: 2em;
+	float:left;
+}
+.tech-section li {
+	line-height: 30px;
 }
 /*Footer*/
 footer {
+	background: linear-gradient(0deg, #817E85, #007196);
 	position: relative;
 	margin: auto;
     width: 62.5em;
     height: 60px;
     padding: 10px;
     background-color: #007196;
-     box-shadow: -4px 4px 5px #888888;
+    box-shadow: -4px 4px 5px #888888;
     border-radius: 1em 1em 1em 1em;
     border: .1em solid #454545;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
-footer p {
+.contact {
+	float: left;
 	position: relative;
+	background: linear-gradient(0deg, #817E85, #007196);
 	font-size: 1.1em;
 	background-color: #007196;
-	color: #FEFEFE;
+	color: #12181A;
 }
-
+.contact:hover {
+	color: black;
+	font-size: 1.8em;
+	transition: .2s;
+}
 /*Clear*/
 .clear {
 	clear:both;
-	margin: 1px;
-    width: 62.5em;
-    height: 1px;
-    padding: 0px;
 }
+
 
 
 
