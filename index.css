@@ -183,7 +183,7 @@ footer {
     box-shadow: -4px 4px 5px #888888;
     border-radius: 1em 1em 1em 1em;
     border: .1em solid #454545;
-    margin-bottom: 60px;
+    margin: 15px 0 60px 0;
 }
 .contact {
 	float: left;
